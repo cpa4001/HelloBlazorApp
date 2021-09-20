@@ -26,3 +26,7 @@ This application can be deployed to [Azure Static Web Apps](https://docs.microso
 ## Demo
 ![Sample Image](BlazorAppv1.PNG)
 
+## Acknowledgement 
+- https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
+- https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+
