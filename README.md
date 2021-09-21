@@ -5,13 +5,15 @@ This template contains an example [Blazor WebAssembly](https://docs.microsoft.co
 ## Getting Started
 Download .NET SDK
 ``` sh
-$ hub clone rtomayko/tilt
-#=> git clone git://github.com/rtomayko/tilt.git
+# Verifies .NET SDK has been downloaded correctly
+> dotnet
 
-# if you prefer HTTPS to git/SSH protocols:
-$ git config --global hub.protocol https
-$ hub clone rtomayko/tilt
-#=> git clone https://github.com/rtomayko/tilt.git
+#Creates new Blazor Application
+> dotnet new blazorserver -o BlazorApp --no-https
+
+#Runs your Blazor Application
+> cd BlazorApp
+> dotnet watch run
 ```
 
 Create a repository from the [GitHub template](https://docs.github.com/en/enterprise/2.22/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and then clone it locally to your machine.
