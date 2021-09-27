@@ -25,6 +25,7 @@ Once you clone the project, open the solution in [Visual Studio Code](https://co
 
 _Note: If you're using the Azure Functions CLI tools, refer to [the documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash) on how to enable CORS._
 
+Make sure to have ASP.NET and web development workload downloaded to run your Blazor app in the terminal within Visual Studio
 ## Template Structure
 
 - **Client**: The Blazor WebAssembly sample application
