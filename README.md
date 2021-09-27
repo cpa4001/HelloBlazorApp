@@ -41,7 +41,7 @@ Here is the link to my static web app: https://polite-mud-01258fc10.azurestatica
 Home
 ![Sample Image](BlazorAppv1.PNG)
 
-In Terminal from Visual Studio
+In Terminal from Visual Studio - This is useful for editing and testing on local machine
 ![Sample Image](BlazorAppFromTerminal.PNG)
 
 ## Acknowledgement 
