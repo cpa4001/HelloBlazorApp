@@ -42,4 +42,6 @@ Here is the link to my static web app: https://polite-mud-01258fc10.azurestatica
 ## Acknowledgement 
 - https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
 - https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+- https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor 
+
 
