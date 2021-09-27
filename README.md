@@ -39,7 +39,6 @@ Here is the link to my static web app: https://polite-mud-01258fc10.azurestatica
 
 ## Demo
 ![Sample Image](BlazorAppv1.PNG)
-<img src="BlazorAppv1.PNG" data-canonical-src="BlazorAppv1.PNG" width="900" height="600" />
 
 ## Acknowledgement 
 - https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
