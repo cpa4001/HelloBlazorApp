@@ -42,6 +42,7 @@ Home
 ![Sample Image](BlazorAppv1.PNG)
 
 In Terminal from Visual Studio
+![Sample Image](BlazorAppvFromTerminal.PNG)
 
 ## Acknowledgement 
 - https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
