@@ -38,7 +38,7 @@ This application can be deployed to [Azure Static Web Apps](https://docs.microso
 Here is the link to my static web app: https://polite-mud-01258fc10.azurestaticapps.net/
 
 ## Demo
-![Sample Image](BlazorAppv1.PNG =250x250)
+![Sample Image](BlazorAppv1.PNG width="200" height="400" )
 
 ## Acknowledgement 
 - https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
