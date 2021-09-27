@@ -25,6 +25,7 @@ Once you clone the project, open the solution in [Visual Studio Code](https://co
 
 _Note: If you're using the Azure Functions CLI tools, refer to [the documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash) on how to enable CORS._
 
+Make sure to have ASP.NET and web development workload downloaded to run your Blazor app in the terminal within Visual Studio
 ## Template Structure
 
 - **Client**: The Blazor WebAssembly sample application
@@ -37,9 +38,15 @@ This application can be deployed to [Azure Static Web Apps](https://docs.microso
 Here is the link to my static web app: https://polite-mud-01258fc10.azurestaticapps.net/
 
 ## Demo
+Home
 ![Sample Image](BlazorAppv1.PNG)
+
+In Terminal from Visual Studio - This is useful for editing and testing on local machine
+![Sample Image](BlazorAppFromTerminal.PNG)
 
 ## Acknowledgement 
 - https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
 - https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+- https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor 
+
 
