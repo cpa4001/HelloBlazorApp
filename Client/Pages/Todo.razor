@@ -1,7 +1,39 @@
 @page "/todo"
 
-<h1>Todo</h1>
+<!--Todo header and holds counter of added tasks-->
+<h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
+
+<!--Iterates though todos list and creates checkbox and input box next to
+ each element.-->
+<ul>
+    <!-- Creates a list item inside the unorderedlist-->
+    @foreach (var todo in todos)
+    {
+        <li><input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+<!-- Creates Input box with submit button
+     Calls AddTodo method when submit buttton is clicked -->
+<input placeholder="Something todo" @bind="newTodo"/>
+<button @onclick="AddTodo">Add todo</button>
 
 @code {
+    
+    @*List to hold each todo item*@
+    private List<TodoItem> todos = new();
+    private string newTodo;
 
+    
+    private void AddTodo()
+    {
+        @*Checks if string in input is null or whitespace*@
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
 }
