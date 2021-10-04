@@ -37,6 +37,11 @@ Home
 In Terminal from Visual Studio - This is useful for editing and testing on local machine
 ![Sample Image](BlazorAppFromTerminal.PNG)
 
+## Updates
+- SEP 14 2021: Created Blazor project
+- SEP 21 2021: Added IPO page
+- OCT 04 2021: Added Todo page
+
 ## Author
 - Christian Apostoli
 
