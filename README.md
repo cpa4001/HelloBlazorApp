@@ -50,5 +50,6 @@ In Terminal from Visual Studio - This is useful for editing and testing on local
 - https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
 - https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor 
 - https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0
+- https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
 
 
