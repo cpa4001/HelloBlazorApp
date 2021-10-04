@@ -46,10 +46,9 @@ In Terminal from Visual Studio - This is useful for editing and testing on local
 - Christian Apostoli
 
 ## Acknowledgement 
-- https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
-- https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+- [Deploy a Blazor App with Microsoft Azure](https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/)
+- [Create a basic Blazor Web App](https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro)
 - https://sites.google.com/site/profvanselow/programming/languages/c_1/blazor 
-- https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0
-- https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
+- [Create a todo list in Blazor](https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0)
 
 
