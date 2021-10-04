@@ -6,7 +6,7 @@
 <!--Iterates though todos list and creates checkbox and input box next to
  each element.-->
 <ul>
-    <!-- Creates a list item inside the unorderedlist-->
+    <!-- Creates a list item inside the unorderedlist for each todo item-->
     @foreach (var todo in todos)
     {
         <li><input type="checkbox" @bind="todo.IsDone" />
@@ -24,6 +24,7 @@
     
     @*List to hold each todo item*@
     private List<TodoItem> todos = new();
+    @*string holds todo item text*@
     private string newTodo;
 
     
@@ -32,7 +33,10 @@
         @*Checks if string in input is null or whitespace*@
         if (!string.IsNullOrWhiteSpace(newTodo))
         {
+            @*Adds todo item to the the TodoIten list*@
             todos.Add(new TodoItem { Title = newTodo });
+            
+            @*Clears the string for the next todo item*@
             newTodo = string.Empty;
         }
     }
