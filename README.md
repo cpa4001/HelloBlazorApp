@@ -34,7 +34,7 @@ Make sure to have ASP.NET and web development workload downloaded to run your Bl
 
 ## Deploy to Azure Static Web Apps
 
-This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [a quickstart guide](https://aka.ms/blazor-swa/quickstart).
 Here is the link to my static web app: https://polite-mud-01258fc10.azurestaticapps.net/
 
 ## Demo
