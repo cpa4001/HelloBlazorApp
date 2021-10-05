@@ -2,13 +2,14 @@
 
 <h1>IPO</h1>
 
-<p>Input prompt: PLEASE ENTER A NUMBER </p>
+<p>Input prompt: </p>
 
 <input @bind="InputString "/>
 
 <button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
 
 <p>Output: @OutputString </p>
+<p>Your output was @length characters long</p>
 
 @code
 
@@ -18,15 +19,16 @@
 
     private string OutputString { get; set; }
 
+    private int length { get; set; }
+
     private void DoProcessing()
 
     {
       
-        double num = double.Parse(InputString);
 
-        num = num * 2; 
+        OutputString = InputString;
 
-        OutputString = num.ToString();
+        length = OutputString.Length;
 
     }
 
