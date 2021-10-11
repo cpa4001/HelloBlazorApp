@@ -10,6 +10,8 @@ Download the .NET SDK
 
 #Creates new Blazor Application
 > dotnet new blazorserver -o BlazorApp --no-https
+#OR
+git clone https://github.com/cpa4001/HelloBlazorApp.git project_name
 
 #Runs your Blazor Application
 > cd BlazorApp
