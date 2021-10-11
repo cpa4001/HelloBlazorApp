@@ -9,12 +9,12 @@ Download the .NET SDK
 > dotnet
 
 #Creates new Blazor Application
-> dotnet new blazorserver -o BlazorApp --no-https
+> dotnet new blazorserver -o HelloBlazorApp --no-https
 #OR
-> git clone https://github.com/cpa4001/HelloBlazorApp project_name
+> git clone https://github.com/cpa4001/HelloBlazorApp HelloBlazorApp
 
 #Runs your Blazor Application
-> cd BlazorApp
+> cd HelloBlazorApp
 > dotnet watch run
 ```
 Make sure to have ASP.NET and web development workload downloaded in Visual Studio to run your Blazor app in the terminal within Visual Studio.
